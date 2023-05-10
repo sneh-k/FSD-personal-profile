@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.name-header {
+  background: aquamarine;
+  padding: 2rem;
+  margin: 0;
+  font-size: xxx-large;
+  text-align: center;
+  text-transform: uppercase;
+}
+.resume-content {
+  display: flex;
+  border: 1rem solid bisque;
+}
+aside {
+  max-width: 25%;
+  padding: 0 1rem;
+  border-right: 0.5rem solid bisque;
+}
+.experience-content {
+  padding: 0 1rem;
+}
+footer {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background: aquamarine;
+  display: flex;
+}
+.section-heading {
+  text-decoration: underline;
+}
+.footer-heading {
+  margin: 0.5rem 0;
+}
+.footer-sections {
+  width: 100%;
+}

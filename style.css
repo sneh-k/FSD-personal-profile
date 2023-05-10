@@ -45,3 +45,21 @@ footer {
 .footer-sections {
   width: 100%;
 }
+
+/*  */
+
+/* Tablet (portrait) ----------- */
+@media only screen and /* (min-device-width: 768px) and */ (max-device-width: 1024px) /* and (orientation: portrait) */ {
+  /* Styles */
+  .resume-content {
+    display: block;
+  }
+  aside {
+    max-width: initial;
+    border-right: 0;
+    border-bottom: 0.5rem solid bisque;
+  }
+  footer {
+    display: block;
+  }
+}
